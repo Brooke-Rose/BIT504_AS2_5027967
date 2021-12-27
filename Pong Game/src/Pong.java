@@ -2,11 +2,11 @@ import javax.swing.JFrame;
 
 public class Pong extends JFrame {
 
-	private final static String WINDOW_TITLE = "Pong";
+	private final static String WINDOW_TITLE = "Pong Game";
 
 	private final static int WINDOW_WIDTH = 800;
 
-	private final static int WINDOW_HEIGHT = 600;
+	private final static int WINDOW_HEIGHT = 800;
 
 	public Pong() {
 
@@ -14,7 +14,7 @@ public class Pong extends JFrame {
 
 		setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 
-		setResizable(false);
+		setResizable(true);
 		add(new PongPanel());
 
 		setVisible(true);
