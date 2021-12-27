@@ -27,10 +27,10 @@ import java.awt.BasicStroke;
 
 
 
-       private final static Color BACKGROUND_COLOUR = Color.WHITE;
+       private final static Color BACKGROUND_COLOUR = Color.LIGHT_GRAY;
 
        private final static int TIMER_DELAY = 5;
-       private final static int BALL_MOVEMENT_SPEED = 2;
+       private final static int BALL_MOVEMENT_SPEED = (int) 1.5;
        private final static int POINTS_TO_WIN = 3;
 
        int player1Score = 0, player2Score = 0;
@@ -329,9 +329,9 @@ import java.awt.BasicStroke;
         }
 
     }
-    private final static int SCORE_TEXT_X = 100;
+    private final static int SCORE_TEXT_X = 80;
 
-    private final static int SCORE_TEXT_Y = 100;
+    private final static int SCORE_TEXT_Y = 80;
 
     private final static int SCORE_FONT_SIZE = 50;
 
@@ -362,7 +362,7 @@ private final static int WINNER_FONT_SIZE = 40;
 
 private final static String WINNER_FONT_FAMILY = "Serif";
 
-private final static String WINNER_TEXT = "WIN!";
+private final static String WINNER_TEXT = "YOU HAVE WON!!";
 
 private void paintWinner(Graphics g) {
 
